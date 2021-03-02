@@ -1,15 +1,36 @@
 ---
 name: CI
 
-on: [push]
+on:
+  pull_request:
+  push:
+    branches:
+      - master
 
 jobs:
+  lint:
+    name: Lint Code Base
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Lint Code Base
+        uses: github/super-linter@v3.15.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VALIDATE_JSCPD: false
+
   build-test:
+    needs: lint
+    name: Build Documents
     runs-on: ubuntu-latest
 
     steps:
 
-      - uses: actions/checkout@v2
+      - name: Checkout Code
+        uses: actions/checkout@v2
 
       - name: Generate PDF document
         uses: hspaans/latexmk-action@v1.0.10
