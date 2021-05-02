@@ -1,6 +1,8 @@
 {
-  "name": "LaTeX",
-  "image": "ghcr.io/hspaans/latex-devcontainer:latest",
+  "name": "Debian",
+  "build": {
+    "dockerfile": "Dockerfile",
+  },
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
