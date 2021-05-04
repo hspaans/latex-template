@@ -11,5 +11,6 @@ trim_trailing_whitespace = true
 [Makefile]
 indent_style = tab
 
-[*.{bib,md}]
+[*.{bib,md,tex}]
 trim_trailing_whitespace = false
+max_line_length = 0
