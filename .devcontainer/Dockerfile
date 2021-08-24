@@ -1,5 +1,5 @@
 # [Choice] Debian version: buster, stretch
-FROM mcr.microsoft.com/vscode/devcontainers/base:buster
+FROM mcr.microsoft.com/vscode/devcontainers/base:bullseye
 
 # ** [Optional] Uncomment this section to install additional packages. **
 # hadolint ignore=DL3008
