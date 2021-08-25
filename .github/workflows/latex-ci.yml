@@ -30,19 +30,19 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Generate PDF document
-        uses: hspaans/latexmk-action@v1.0.13
+        uses: hspaans/latexmk-action@v1.1.0
         with:
           format: pdf
           filename: article.tex
 
       - name: Generate PDF document
-        uses: hspaans/latexmk-action@v1.0.13
+        uses: hspaans/latexmk-action@v1.1.0
         with:
           format: pdf
           filename: book.tex
 
       - name: Generate PDF document
-        uses: hspaans/latexmk-action@v1.0.13
+        uses: hspaans/latexmk-action@v1.1.0
         with:
           format: pdf
           filename: presentation.tex
