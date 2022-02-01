@@ -1,7 +1,7 @@
 ---
 repository:
   description: Template for LaTeX
-  topics: latex, latexmk, template, pdf, bibtex
+  topics: latex, latexmk, template, latex-template, pdf, bibtex
   delete_branch_on_merge: true
   has_wiki: false
 #   private: false
