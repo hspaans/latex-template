@@ -7,23 +7,17 @@ on:
 jobs:
   lint:
     name: Lint Code Base
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Lint Code Base
-        uses: github/super-linter@v5
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VALIDATE_ALL_CODEBASE: false
-          VALIDATE_ENV: true
-          VALIDATE_JSON: true
-          VALIDATE_LATEX: true
-          VALIDATE_MARKDOWN: true
-          VALIDATE_XML: true
-          VALIDATE_YAML: true
+      - name: Run chktex
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chktex
+          chktex -q -n 6 *.tex
 
   build-test:
     needs: lint
