@@ -13,11 +13,14 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Run chktex
+      - name: Install chktex
         run: |
           sudo apt-get update
           sudo apt-get install -y chktex
-          chktex -q -n 6 *.tex
+
+      - name: Run chktex
+        run: |
+          chktex -q -n 6 `git ls-files '*.tex'`
 
   build-test:
     needs: lint
