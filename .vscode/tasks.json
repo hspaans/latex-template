@@ -18,11 +18,6 @@
       "group": "buid",
       "type": "shell",
       "command": "rubber -d presentation.tex"
-    },
-    {
-      "label": "Refresh rfc.bib",
-      "type": "shell",
-      "command": "curl --silent -k -o rfc.bib https://tm.uka.de/~bless/rfc.bib"
     }
   ]
 }
