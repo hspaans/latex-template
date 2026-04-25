@@ -21,7 +21,7 @@ See [latexmk-action](https://github.com/hspaans/latexmk-action)
   subsections, citations and including sources into the document.
 
 - `book.tex` uses the _book_ class and is an example with multiple parts,
-  chapters and sections, but also how to use citations, BibTex and lists of
+  chapters and sections, but also how to use citations, BibTeX and lists of
   tables and figures.
 
 - `presentation.tex` uses the _beamer_ class and is an example on how to create
