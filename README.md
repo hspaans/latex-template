@@ -3,7 +3,7 @@
 > [!WARNING]
 > This repository will be archived. See:
 >
-> - [BibTex files](https://github.com/hspaans/bibtex)
+> - [BibTeX files](https://github.com/hspaans/bibtex)
 > - [LaTeXMK Action](https://github.com/hspaans/latexmk-action)
 > - [Base Template](https://github.com/hspaans/template)
 
