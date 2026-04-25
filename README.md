@@ -1,7 +1,7 @@
 # latex-template
 
 > [!WARNING]
-> This repository will archived. See:
+> This repository will be archived. See:
 >
 > - [BibTex files](https://github.com/hspaans/bibtex)
 > - [LaTeXMK Action](https://github.com/hspaans/latexmk-action)
