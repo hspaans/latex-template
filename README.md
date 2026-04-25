@@ -9,7 +9,7 @@
 
 This is a template repository for creating LaTeX documents in a VSCode
 devcontainer or with GitHub Codespaces. Combined with GitHub Actions these
-documents can also transformed into PDF files in an automated way.
+documents can also be transformed into PDF files in an automated way.
 
 ## GitHub Actions
 
