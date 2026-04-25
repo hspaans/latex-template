@@ -26,3 +26,19 @@ See [latexmk-action](https://github.com/hspaans/latexmk-action)
 
 - `presentation.tex` uses the _beamer_ class and is an example on how to create
   a presentation with LaTeX.
+
+## Sources
+
+### Main BibTeX
+
+### BibTeX for RFCs
+
+```shell
+$ curl --silent -k -o rfc.bib https://tm.uka.de/~bless/rfc.bib
+$ ls -l rfc.bib
+-rw-rw-rw- 1 vscode root 8635325 May  2 14:18 rfc.bib
+```
+
+### BibTeX for PEP
+
+[Python Enhancement Proposals](https://www.python.org/dev/peps/)
