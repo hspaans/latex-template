@@ -6,6 +6,7 @@
 > - [BibTeX files](https://github.com/hspaans/bibtex)
 > - [LaTeXMK Action](https://github.com/hspaans/latexmk-action)
 > - [Base Template](https://github.com/hspaans/template)
+> - [LaTeX examples](https://gist.github.com/hspaans/b7d5370a6cdc478bfc5b7a9be101e63a)
 
 This is a template repository for creating LaTeX documents in a VSCode
 devcontainer or with GitHub Codespaces. Combined with GitHub Actions these
